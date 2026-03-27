@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trend Mart</title>
+    <link rel="stylesheet" href="TrendMart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+            <h2 class="logo">Trend<span>Mart</span></h2>
+            <div class="navsearch">
+                <select class="option">
+                    <option> All</option>
+                    <option>Clothes </option>
+                    <option>Electronic</option>
+                    <option>Sports</option>
+                    <option>Accessories </option>
+                    <option>Books </option>
+                    <option> Gaming</option>
+                    <option> Toys</option>
+                    <option> Beauty</option>
+                </select>
+                <input type="text" placeholder="Search Trend" class="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+
+            <nav class="nav">
+                <a href="">Home</i></a>
+                <a href="#mens">Men</a>
+                <a href="#women">Women</a>
+                <a href="#mobile">Mobile&Laptop</a>
+                <a href="#About">About</a>
+<a href="#" onclick="openCart(); return false;"><i class="fa-solid fa-cart-arrow-down"></i>Cart(<span id="cartCount">0</span>)</a >
+            </nav>
+
+
+
+        </div>
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <img src="https://marketplace.canva.com/EAFT4iBtkRY/1/0/800w/canva-beige-brown-minimalist-casual-style-banner-landscape-nCTDUarPDJo.jpg"
+                class="slide">
+            <img src="https://rukminim2.flixcart.com/www/2140/1460/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=60"
+                class="slide">
+            <img src="https://viralet.com/cdn/shop/files/Kein_Titel_4000_x_2000_px.png?v=1718268931&width=1100"
+                class="slide">
+            <img src="https://www.dhresource.com/webp/m/f3/decorate/ry/g/27/981b1ed9-4f46-45d6-ae47-e372716b57ad.jpg"
+                class="slide">
+            <img src="https://m.media-amazon.com/images/G/31/img24hp/MED/nov/ho/MED_Header_1500X300._CB777135406_.jpg"
+                class="slide">
+        </div>
+    </div>
+<img src="https://rukminim2.flixcart.com/fk-p-flap/3240/540/image/b9423f4fafdeff72.jpg?q=60"class="full-img">
+
+
+
+    <h2>Top Categories</h2>
+    <div class="category-grid">
+        <div class="cat">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png" class="cat-img">
+            <h3>Fashion</h3>
+        </div>
+        <div class="cat">
+            <img src="https://rukminim1.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100" class="cat-img">
+            <h3>Electronic</h3>
+        </div>
+        <div class="cat">
+            <img src="https://png.pngtree.com/png-vector/20230904/ourmid/pngtree-sports-equipment-yellow-traditional-png-image_9933295.png"
+                class="cat-img">
+            <h3>Sports</h3>
+        </div>
+        <div class="cat">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/041/444/089/small_2x/top-view-mockup-of-traveler-s-accessories-with-passport-books-of-travel-plan-wallet-camera-hat-backpack-and-airplane-toy-isolated-tropical-travel-concept-transparency-with-shadow-png.png"
+                class="cat-img">
+            <h3> Accessories</h3>
+        </div>
+        <div class="cat">
+            <img src="https://www.freeiconspng.com/uploads/book-png-26.png" class="cat-img">
+            <h3>Books</h3>
+        </div>
+        <div class="cat">
+            <img src="https://www.pngmart.com/files/4/Gaming-Computer-PNG-Picture.png" class="cat-img">
+            <h3>Gaming</h3>
+        </div>
+        <div class="cat">
+            <img src="https://th.bing.com/th/id/R.dc1c25926b7fc5bb171f3c8f0d275b2d?rik=dKx8cLtvxOu1Cw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fToy-PNG-Image-File.png&ehk=sP2THRKylbFxBV0pTJsYjW2EDxAjz7P47vvcJbVI8H8%3d&risl=&pid=ImgRaw&r=0"
+                class="cat-img">
+            <h3>Toys</h3>
+        </div>
+        <div class="cat">
+            <img src="https://png.pngtree.com/png-clipart/20241024/original/pngtree-geset-of-luxury-beauty-cosmetic-makeup-bdifferent-png-image_16480004.png"
+                class="cat-img">
+            <h3>Beauty</h3>
+        </div>
+
+
+    </div>
+
+
+    <section class="products">
+        <h2>New Arrivals</h2>
+        <div class="product-grid">
+
+            <a href="#mens"><div class="product-card">
+                <img
+                    src="https://m.media-amazon.com/images/G/31/img22/Meghana/SSFlip/BBD/Casual_shirts_2_364x566._CB792398778_.png">
+                <h4>Men's Shirt</h4>
+            </div></a>
+
+            <div class="product-card">
+                <img src="https://i.etsystatic.com/18280828/r/il/e862de/2879009882/il_1140xN.2879009882_o9l8.jpg">
+                <h4>Women's Kurti</h4>
+            </div>
+
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71zwfwSC3EL._SX679_.jpg">
+                <h4>Smart Phone</h4>
+            </div>
+
+            <div class="product-card">
+                <img
+                    src="https://m.media-amazon.com/images/G/31/IMG25/Fashion/WinterFlip/AFUnrec/TopBrands/Sparx_364x566._CB797567119_.png">
+                <h4>Mens footwear</h4>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://m.media-amazon.com/images/G/31/img21/Watches2025/June/BAU/SS25/Celeb/Movado._SS700_QL85_FMpng_.png">
+                <h4>Wrist Watchs</h4>
+            </div>
+            <div class="product-card">
+                <img src="  https://m.media-amazon.com/images/I/71jsEdRJsSL._AC_SX644_CB1169409_QL70_.jpg">
+                <h4> T-Shirts </h4>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71EkM+b7hYL._AC_UL480_FMwebp_QL65_.jpg">
+                <h4> Men's Kurta's</h4>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://cms.landmarkshops.in/cdn-cgi/image/w=616,q=85,fit=cover/MAX-Friday/MAX2.O/MAX-UberHP-BannerCarousel16FEB2302-Desk-Banner3-18NOV25.png">
+                <h4>Jeans</h4>
+            </div>
+            <div class="product-card">
+                <img src=" https://m.media-amazon.com/images/I/51Lu1b6qgsL._AC_UY327_FMwebp_QL65_.jpg">
+                <h4> Headphones </h4>
+            </div>
+
+            <div class="product-card">
+                <img src=" https://m.media-amazon.com/images/I/818vnFP09yL._AC_UY327_FMwebp_QL65_.jpg">
+                <h4> Smart TV</h4>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://assets.panashindia.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/4/1/4191sr10-216.jpg">
+                <h4> Sarees</h4>
+            </div>
+            <div class="product-card">
+                <img src=" https://m.media-amazon.com/images/I/81esbxfsMlL._SX679_.jpg">
+                <h4> Gaming Laptops </h4>
+             </div>
+        </div>
+        <img src="https://marketplace.canva.com/EAFT4iBtkRY/1/0/800w/canva-beige-brown-minimalist-casual-style-banner-landscape-nCTDUarPDJo.jpg" class="full-img">
+
+    </section>
+    <section class="products" id="mens">
+        <h2>Men's Fashion</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/k/n/0/s-laker23yel-fashion-fusion-original-imahfhvyqbfacgfb.jpeg?q=70">
+                <h4><span class="sponsored">Force</span><br>
+                    Men Printed Round Neck Cotton Blend Black T-Shirt
+                    <pre>  <p class="fakeprice">₹1,799</p><p class=" price">₹353  <span class="offer">80%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Force Men Printed Round Neck Cotton Blend Black T-Shirt',
+353,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/k/n/0/s-laker23yel-fashion-fusion-original-imahfhvyqbfacgfb.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/c/n/p/xl-fmt431-boston-bk-force-resized-2-original-imahdwhgstxzugth.jpeg?q=70">
+                <h4><span class="sponsored">Fashion Fusion</span><br>
+                    Men Typography Round Neck Polyester Yellow T-Shirt</h4>
+                <pre>  <p class="fakeprice">₹799</p><p class="price">₹299  <span class="offer">50%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Fashion Fusion Men Typography Round Neck Polyester Yellow T-Shirt',
+299,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/c/n/p/xl-fmt431-boston-bk-force-resized-2-original-imahdwhgstxzugth.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+
+            <div class="product-card">
+                    <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/l/z/1/11-12-years-multicolur-klok-wear-original-imahhn5ag9vkh52d.jpeg?q=70">
+                    <h4><span class="sponsored">METRONAUT</span><br>
+                        Men Regular Fit Solid Spread Collar Casual Shirt
+                        <pre>  <p class="fakeprice">₹899</p><p class="price">₹349  <span class="offer">70%off</span></p>
+            </pre>
+            
+                
+                <button class="addCartBtn"
+onclick="addToCart(
+' Men Regular Fit Solid Spread Collar Casual Shirt',
+349,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/l/z/1/11-12-years-multicolur-klok-wear-original-imahhn5ag9vkh52d.jpeg?q=70'
+)">
+Add to Cart
+</button>
+
+                </h4>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/y/b/l/m-s-line-light-bluee-rodeiz-original-imah7zd7qspvzpzy.jpeg?q=70">
+                <h4><span class="sponsored">RODEIZ</span><br>
+                    Men Slim Fit Striped Spread Collar Casual Shirt
+                </h4>
+                <pre>  <p class="fakeprice">₹999</p><p class="price">₹349  <span class="offer">70%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'RODEIZ Men Slim Fit Striped Spread Collar Casual Shirt',
+349,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/y/b/l/m-s-line-light-bluee-rodeiz-original-imah7zd7qspvzpzy.jpeg?q=70'
+)">
+Add to Cart
+</button>
+
+
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-jean/i/l/g/28-fk-light-gry-28-garteen-original-imahgmucyyfczxus.jpeg?q=70">
+                <h4><span class="sponsored">GARTEEN</span><br>
+                    Men Straight Fit Mid Rise Grey Jeans
+                </h4>
+                <pre>  <p class="fakeprice">₹1,299</p><p class="price">₹699  <span class="offer">50%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Men Straight Fit Mid Rise Grey Jeans',
+699,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-jean/i/l/g/28-fk-light-gry-28-garteen-original-imahgmucyyfczxus.jpeg?q=70'
+)">
+Add to Cart
+</button>
+
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/g/n/h/30-582-1-ftx-original-imahjn6ayxzewaqz.jpeg?q=70">
+                <h4><span class="sponsored">FTX</span><br>
+                    Men Relaxed Black Lycra Blend Trousers</h4>
+                <pre>  <p class="fakeprice">₹1,099</p><p class="price">₹599  <span class="offer">50%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'FTX Men Relaxed Black Lycra Blend Trousers',
+599,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/g/n/h/30-582-1-ftx-original-imahjn6ayxzewaqz.jpeg?q=70'
+)">
+Add to Cart
+</button>
+
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/track-pant/z/b/x/l-bot253-blk-l-cloth-n-code-original-imahgmpxazq7y4js.jpeg?q=70">
+                <h4><span class="sponsored">Cloth N Coden</span><br>
+                    Men Solid Black Track Pants
+                </h4>
+                <pre>   <p class="fakeprice">₹999</p><p class="price">₹399  <span class="offer">70%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Cloth N Coden Men Solid Black Track Pants',
+399,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/track-pant/z/b/x/l-bot253-blk-l-cloth-n-code-original-imahgmpxazq7y4js.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/cargo/1/5/s/30-df-mj-grey-cargo-33-playfeel-original-imahhd7npgfykzha.jpeg?q=70">
+                <h4><span class="sponsored">Playfeel</span><br>
+                    Men Cargos </h4>
+                <pre>  <p class="fakeprice">₹999</p><p class="price">₹399  <span class="offer">70%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Playfeel Men Cargos',
+399,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/cargo/1/5/s/30-df-mj-grey-cargo-33-playfeel-original-imahhd7npgfykzha.jpeg?q=70'
+)">
+Add to Cart
+</button>
+
+            </div>
+
+    </section>
+<img src="https://www.dhresource.com/webp/m/f3/decorate/ry/g/27/981b1ed9-4f46-45d6-ae47-e372716b57ad.jpg" class="full-img">
+<iframe class="video" width=100%" height="500"
+src="https://www.youtube.com/embed/HIrN_6WLENg?autoplay=1&mute=1&loop=1&playlist=HIrN_6WLENg"
+frameborder="0"
+allow="autoplay; encrypted-media"
+allowfullscreen>
+</iframe>
+
+
+    <section class="products" id="women">
+        <h2>Women's Fashion</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/u/q/h/free-msbr02-looms-in-banaras-unstitched-original-imahjnrftkasjkaf.jpeg?q=70">
+                <h4><span class="sponsored">looms in banaras</span><br>
+                    Women Banarasi Raw Silk Saree
+                    <pre>  <p class="fakeprice">₹8,499</p><p class=" price">₹4,801  <span class="offer">43%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'looms in banaras Women Banarasi Raw Silk Saree',
+4801,
+'https://rukminim2.flixcart.com/image/612/612/xif0q/sari/u/q/h/free-msbr02-looms-in-banaras-unstitched-original-imahjnrftkasjkaf.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/300/300/xif0q/kurta/h/i/h/s-lace-yellow-tabeedah-original-imahgcqjbhbxcr3h.jpeg?q=90">
+                <h4><span class="sponsored">Tabeedah </span><br>
+                    Women Printed Viscose Rayon A-line Kurta (Yellow)
+                    <pre>  <p class="fakeprice">₹1,299</p><p class="price">₹333  <span class="offer">74%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Tabeedah Women Printed Viscose Rayon A-line Kurta (Yellow)',
+333,
+'https://rukminim2.flixcart.com/image/300/300/xif0q/kurta/h/i/h/s-lace-yellow-tabeedah-original-imahgcqjbhbxcr3h.jpeg?q=90'
+)">
+Add to Cart
+</button>
+            </div>
+
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/1536/1536/xif0q/dress/q/r/e/xs-solid-color-fabverse-original-imahgjfspz8sfzuu.jpeg?q=70&crop=false">
+                <h4><span class="sponsored">FabVerse </span><br>
+                    Women Bodycon Brown Maxi/Full Length Dress
+                    <pre>  <p class="fakeprice">₹2,499</p><p class="price">₹799  <span class="offer">75%off</span></p>
+            </pre>
+                </h4>
+<button class="addCartBtn"
+onclick="addToCart(
+'FabVerse Women Bodycon Brown Maxi/Full Length Dress',
+799,
+'https://rukminim2.flixcart.com/image/1536/1536/xif0q/dress/q/r/e/xs-solid-color-fabverse-original-imahgjfspz8sfzuu.jpeg?q=70&crop=false'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://media.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000016020270-Brown-BROWN-1000016020270_01-2100.jpg">
+                <h4><span class="sponsored">Max</span><br>
+                    Women Crinkled Satin Finish Blouse
+                </h4>
+                <pre>  <p class="fakeprice">₹1,099</p><p class="price">₹649  <span class="offer">40%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Max Women Crinkled Satin Finish Blouse',
+649,
+'https://media.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000016020270-Brown-BROWN-1000016020270_01-2100.jpg'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://media-ea.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000015898271-Black-BLACK-1000015898271_01-2100.jpg">
+                <h4><span class="sponsored">Max</span><br>
+                    Women Textured Trousers
+                </h4>
+                <pre>  <p class="fakeprice">₹1,199</p><p class="price">₹1,999  <span class="offer">40%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Max Women Textured Trousers',
+1999,
+'https://media-ea.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000015898271-Black-BLACK-1000015898271_01-2100.jpg'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://media.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000015327433-Blue-LIGHTBLUE-1000015327433_01-2100.jpg">
+                <h4><span class="sponsored">Max</span><br>
+                    Women Washed Wide Leg Jeans
+                </h4>
+                <pre>  <p class="fakeprice">₹2,099</p><p class="price">₹1,099  <span class="offer">50%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Max Women Washed Wide Leg Jeans',
+1099,
+'https://media.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000015327433-Blue-LIGHTBLUE-1000015327433_01-2100.jpg'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://media.landmarkshops.in/cdn-cgi/image/h=735,w=508,q=85,fit=cover/max-new/1000015597411-Brown-DARKBROWN-1000015597411_02-2100.jpg">
+                <h4><span class="sponsored">Max</span><br>
+                    Women Solid Cargo Jeans
+                </h4>
+                <pre>   <p class="fakeprice">₹2,299</p><p class="price">₹1,299  <span class="offer">60%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Max Women Solid Cargo Jeans',
+1299,
+'https://media.landmarkshops.in/cdn-cgi/image/h=735,w=508,q=85,fit=cover/max-new/1000015597411-Brown-DARKBROWN-1000015597411_02-2100.jpg'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://media.landmarkshops.in/cdn-cgi/image/h=735,w=508,q=85,fit=cover/max-new/1000016213168-Blue-NAVY-1000016213168_03-2100.jpg">
+                <h4><span class="sponsored">Max</span><br>
+                    Men Cargos </h4>
+                <pre>  <p class="fakeprice">₹799</p><p class="price">₹1,249  <span class="offer">40%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Max Men Cargos',
+1249,
+'https://media.landmarkshops.in/cdn-cgi/image/h=735,w=508,q=85,fit=cover/max-new/1000016213168-Blue-NAVY-1000016213168_03-2100.jpg'
+)">
+Add to Cart
+</button>
+
+            </div>
+
+    </section>
+
+<img src="https://rukminim2.flixcart.com/www/2140/1460/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=60" class="full-img">
+
+    <section class="products" id="mobile">
+        <h2>Mobiles&Laptop</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/f/v/m/-original-imahft6chnx2vbuy.jpeg?q=70&crop=false">
+                <h4><span class="sponsored">Apple</span><br>
+Apple iPhone 17 Pro Max (Cosmic Orange, 512 GB)
+                    <pre>  <p class="fakeprice">₹1,70,900</p><p class=" price">₹1,35,799  <span class="offer">18%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Apple iPhone 17 Pro Max (Cosmic Orange, 512 GB)',
+135799,
+'https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/f/v/m/-original-imahft6chnx2vbuy.jpeg?q=70&crop=false'
+)">
+Add to Cart
+</button>
+            </div>
+
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/u/k/-original-imahcfcfbwzmrecy.jpeg?q=70">
+                <h4><span class="sponsored">Nothing </span><br>
+Nothing Phone (3a) Pro (Grey, 256 GB) (8 GB RAM)
+                    <pre>  <p class="fakeprice">₹34,999</p><p class="price">₹31,999  <span class="offer">8%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Nothing Phone (3a) Pro (Grey, 256 GB) (8 GB RAM)',
+31999,
+'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/u/k/-original-imahcfcfbwzmrecy.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+
+            <div class="product-card">
+                <img
+                    src=https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/e/z/-original-imahhx5ubtphfbze.jpeg?q=70&crop=false>
+                <h4><span class="sponsored">Oppo </span><br>
+OPPO Find X9 Pro (Titanium Charcoal, 512 GB) (16 GB RAM)
+                    <pre>  <p class="fakeprice">₹1,09,999</p><p class="price">₹98,000  <span class="offer">20%off</span></p>
+            </pre>
+                </h4>
+<button class="addCartBtn"
+onclick="addToCart(
+'OPPO Find X9 Pro (Titanium Charcoal, 512 GB) (16 GB RAM)',
+98000,
+'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/e/z/-original-imahhx5ubtphfbze.jpeg?q=70&crop=false'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/6/m/-original-imahg954z5zwn9gu.jpeg?q=70">
+                <h4><span class="sponsored">Vivo</span><br>
+vivo X300 Pro (Elite Black, 512 GB) (16 GB RAM)
+                </h4>
+                <pre>  <p class="fakeprice">₹1,19,999</p><p class="price">₹1,09,999 <span class="offer">8%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'vivo X300 Pro (Elite Black, 512 GB) (16 GB RAM)',
+109999,
+'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/6/m/-original-imahg954z5zwn9gu.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/c/2/s/-original-imahg5fx5hvbfbyz.jpeg?q=70">
+                <h4><span class="sponsored">Lenvo</span><br>
+Lenovo LOQ Intel Core i5 13th Gen 13450HX                 </h4>
+                <pre>  <p class="fakeprice">₹1,04,199</p><p class="price">₹82,990 <span class="offer">15%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'Lenovo LOQ Intel Core i5 13th Gen 13450HX',
+82990,
+'https://rukminim2.flixcart.com/image/312/312/xif0q/computer/c/2/s/-original-imahg5fx5hvbfbyz.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/w/o/u/-original-imahg5fyktgrgmez.jpeg?q=70">
+                <h4><span class="sponsored">MSI</span><br>
+MSI Titan GT77 Intel Core i9 13th Gen 13980HX                 </h4>
+                <pre>  <p class="fakeprice">₹5,48,999</p><p class="price">₹4,49,999  <span class="offer">15%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'MSI Titan GT77 Intel Core i9 13th Gen 13980HX',
+449999,
+'https://rukminim2.flixcart.com/image/312/312/xif0q/computer/w/o/u/-original-imahg5fyktgrgmez.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/6/w/k/-original-imahgfdfvjwhnbye.jpeg?q=70">
+                <h4><span class="sponsored">Asus</span><br>
+ASUS ROG Strix G16 (2025)                 </h4>
+                <pre>   <p class="fakeprice">₹2,27,999</p><p class="price">₹2,09,299  <span class="offer">60%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'ASUS ROG Strix G16 (2025)',
+209299,
+'https://rukminim2.flixcart.com/image/312/312/xif0q/computer/6/w/k/-original-imahgfdfvjwhnbye.jpeg?q=70'
+)">
+Add to Cart
+</button>
+            </div>
+            <div class="product-card">
+                <img
+                    src="https://rukminim2.flixcart.com/image/300/300/xif0q/computer/1/o/w/-original-imahg4vkxdhcgyyu.jpeg?q=90">
+                <h4><span class="sponsored">HP</span><br>
+HP Victus AI 31 TOPS AMD Ryzen 5 Hexa Core 8645HS                 </h4>
+                <pre>  <p class="fakeprice">₹73,099</p><p class="price">₹60,249  <span class="offer">10%off</span></p>
+            </pre>
+<button class="addCartBtn"
+onclick="addToCart(
+'HP Victus AI 31 TOPS AMD Ryzen 5 Hexa Core 8645HS',
+60249,
+'https://rukminim2.flixcart.com/image/300/300/xif0q/computer/1/o/w/-original-imahg4vkxdhcgyyu.jpeg?q=90'
+)">
+Add to Cart
+</button>
+
+            </div>
+
+    </section>
+
+
+    
+
+
+<section id="About">
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="#">Company Info</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">Payments</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Policy</h3>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">📘</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📷</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+    </div>
+
+    <div id="cartSidebar" class="cart-sidebar">
+        <span class="close-cart" onclick="closeCart()">&times;</span>
+        <h2 style="color: #e68e00;">Your Cart</h2>
+        <div id="cartItems"></div>
+        <div id="cartTotal" class="cart-total">Total: ₹0</div>
+        <br>
+        <button onclick="checkout()" style="background: #ff9900; color: white; border: none; padding: 10px 20px; cursor: pointer;">Checkout</button>
+    </div>
+    
+
+    <div id="billModal" class="bill-modal">
+        <div class="bill-content">
+            <span class="close-cart" onclick="closeBill()">&times;</span>
+            <h2>Invoice</h2>
+            <div id="billDetails"></div>
+            <div id="finalTotal" class="cart-total"></div>
+            <br>
+            <button onclick="window.print()" class="print-btn" style="background: #ff9900; color: white; border: none; padding: 10px 20px; cursor: pointer;">Print Bill</button>
+        </div>
+    </div>
+
+    <script>
+        let cart = [];
+
+        function addToCart(name, price, image) {
+            let existingItem = cart.find(item => item.name === name);
+            if (existingItem) {
+                existingItem.qty++;
+            } else {
+                cart.push({ name: name, price: price, image: image, qty: 1 });
+            }
+            updateCartDisplay();
+        }
+
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCartDisplay();
+        }
+
+        function increaseQty(index) {
+            cart[index].qty++;
+            updateCartDisplay();
+        }
+
+        function decreaseQty(index) {
+            if (cart[index].qty > 1) {
+                cart[index].qty--;
+            } else {
+                cart.splice(index, 1);
+            }
+            updateCartDisplay();
+        }
+
+        function updateCartDisplay() {
+            const cartItemsContainer = document.getElementById('cartItems');
+            const cartCountSpan = document.getElementById('cartCount');
+            const cartTotalDiv = document.getElementById('cartTotal');
+            
+            cartItemsContainer.innerHTML = '';
+            let total = 0;
+            let count = 0;
+
+            cart.forEach((item, index) => {
+                total += item.price * item.qty;
+                count += item.qty;
+                cartItemsContainer.innerHTML += `
+                    <div class="cart-item">
+                        <img src="${item.image}" alt="${item.name}">
+                        <div>
+                            <h4>${item.name}</h4>
+                            <p>₹${item.price}</p>
+                            <div style="margin: 5px 0;">
+                                <button onclick="decreaseQty(${index})" style="padding: 2px 8px; cursor: pointer;">-</button>
+                                <span style="margin: 0 5px;">${item.qty}</span>
+                                <button onclick="increaseQty(${index})" style="padding: 2px 8px; cursor: pointer;">+</button>
+                            </div>
+                            <button onclick="removeFromCart(${index})" style="color: red; border: none; background: none; cursor: pointer; padding: 0;">Remove</button>
+                        </div>
+                    </div>
+                `;
+            });
+
+            cartCountSpan.innerText = count;
+            cartTotalDiv.innerText = 'Total: ₹' + total;
+        }
+
+        function openCart() {
+            document.getElementById('cartSidebar').classList.add('active');
+        }
+
+        function closeCart() {
+            document.getElementById('cartSidebar').classList.remove('active');
+        }
+
+        function checkout() {
+            if (cart.length === 0) {
+                alert("Your cart is empty!");
+                return;
+            }
+            generateBill();
+            cart = [];
+            updateCartDisplay();
+            closeCart();
+        }
+
+        function generateBill() {
+            const billDetails = document.getElementById('billDetails');
+            const finalTotal = document.getElementById('finalTotal');
+            let total = 0;
+            
+            let html = '<table style="width:100%; text-align:left; border-collapse: collapse;">';
+            html += '<tr><th style="border-bottom:1px solid #ddd; padding:8px;">Item</th><th style="border-bottom:1px solid #ddd; padding:8px;">Qty</th><th style="border-bottom:1px solid #ddd; padding:8px;">Price</th></tr>';
+            
+            cart.forEach(item => {
+                let itemTotal = item.price * item.qty;
+                total += itemTotal;
+                html += `<tr>
+                    <td style="border-bottom:1px solid #eee; padding:8px;">${item.name}</td>
+                    <td style="border-bottom:1px solid #eee; padding:8px;">${item.qty}</td>
+                    <td style="border-bottom:1px solid #eee; padding:8px;">₹${itemTotal}</td>
+                </tr>`;
+            });
+            html += '</table>';
+            
+            billDetails.innerHTML = html;
+            finalTotal.innerText = 'Grand Total: ₹' + total;
+            
+            document.getElementById('billModal').style.display = 'flex';
+        }
+
+        function closeBill() {
+            document.getElementById('billModal').style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html> 
